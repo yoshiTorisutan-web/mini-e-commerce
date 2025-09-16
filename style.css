@@ -1,0 +1,18 @@
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+input[type="checkbox"],
+input[type="radio"],
+select,
+textarea {
+  background-color: #f3f4f6 !important; /* gris clair (équivalent Tailwind bg-gray-100) */
+  color: #111827 !important; /* gris très foncé (équivalent Tailwind text-gray-900) */
+}
+
+/* Pour les cases à cocher et boutons radio */
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: #9ca3af; /* gris clair */
+}
